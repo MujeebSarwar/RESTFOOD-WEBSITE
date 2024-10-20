@@ -1,0 +1,931 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.firstbg {
+   width: 100%;
+    height: 640px;
+    background-color: rgb(189, 118, 25);
+    background-image: url(images/bg1.jpg);
+    background-color: rgba(189, 118, 25, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.navlogo {
+    width: 500px;
+    height: 85px;
+    background-color: black;
+
+}
+
+#logo {
+    position: relative;
+    top: 10px;
+}
+
+.navmain {
+    width: 849px;
+    height: 85px;
+    background-color: black;
+    position: relative;
+    left: 500px;
+    top: -85px;
+}
+.ulmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+.firstdh1 {
+    color: white;
+    font-size: 85px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    width: 643px;
+
+}
+
+.firstdp {
+    color: white;
+    width: 659px;
+    height: 80px;
+    letter-spacing: 1px;
+    position: relative;
+    top: -36px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.firstbtn {
+    position: relative;
+    top: 8px;
+    left: 50px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.firstbtn:hover {
+    background-color: #b1b12e;
+
+}
+
+.secondmain {
+    width: 100%;
+    height: 750px;
+
+}
+
+.secndp1 {
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    position: relative;
+    top: 70px;
+}
+
+#leave1 {
+    width: 75px;
+    height: 72px;
+    position: relative;
+    top: 40px;
+    left: 410px;
+}
+
+#chef {
+    color: white;
+
+    width: 440px;
+    position: relative;
+    left: 490px;
+    top: -22px;
+    font-size: 40px;
+}
+
+#leavepara {
+    color: white;
+    color: white;
+
+    width: 650px;
+    height: 100px;
+    position: relative;
+    left: 360px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.foodsection {
+    width: 100%;
+    height: 600px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    /* background-image:url(bodybg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+    top: 68px;
+    overflow: hidden;
+    /* yaha pr ghlti thi bcz animation lagai thi to is leye overflow kr raha tha  */
+
+}
+
+.fooditem {
+    width: 290px;
+    height: 480px;
+    /* background: rgb(187, 73, 73); */
+
+}
+
+#burger {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+#pizza {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#salad {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#pasta {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+#burger:hover {
+    transform: scale(1.1);
+}
+
+#pizza:hover {
+    transform: scale(1.1);
+}
+
+#salad:hover {
+    transform: scale(1.1);
+}
+
+#pasta:hover {
+    transform: scale(1.1);
+}
+
+.bh1 {
+    color: white;
+    position: relative;
+    left: 80px;
+    font-size: 27px;
+    top: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bp1 {
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.prize {
+    position: relative;
+    top: 70px;
+    color: #FFEB3B;
+    position: relative;
+    left: 70px;
+    font-size: 22px;
+}
+
+.pzah1 {
+
+    color: white;
+    position: relative;
+    left: 95px;
+    top: 11px;
+    font-size: 27px;
+    font-family: system-ui;
+}
+
+.thirdmain {
+    width: 100%;
+    height: 700px;
+    background: red;
+    position: relative;
+    top: 223px;
+    background-image: url(images/bodybg2.jpg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.thirdimg {
+    width: 40%;
+    height: 650px;
+    background-image: url(images/counter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 15px;
+
+
+}
+
+.thitrddesc {
+    width: 40%;
+    height: 650px;
+}
+
+#thitrdkaha {
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#thirdkapa {
+    color: white;
+    position: relative;
+    top: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#exchef {
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+
+#recp {
+    position: relative;
+    top: 90px;
+    left: 140px;
+}
+
+#ingridnt {
+    position: relative;
+    top: 90px;
+    left: 250px;
+}
+
+.echf {
+    color: white;
+    position: relative;
+    top: 98px;
+    left: 5px;
+    letter-spacing: 1px;
+}
+
+.rp {
+    color: white;
+    position: relative;
+    top: 82px;
+    left: 210px;
+    letter-spacing: 1px;
+
+}
+
+.ingri {
+    color: white;
+    position: relative;
+    top: 65px;
+    left: 330px;
+    letter-spacing: 1px;
+
+}
+
+/* .fourthmain{
+    width: 100%;
+    height: 400px;
+    background: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.fourdesc{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(214, 218, 22);
+}
+.fourimg{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(0, 255, 64);
+
+}
+#fourkiimage{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+.fourthmain {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 226px;
+    background-image: url(images/pizza.jpg);
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#fourthkaoffer {
+    color: white;
+    position: relative;
+    top: 122px;
+    left: 50px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    line-height: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthkabtn {
+    position: relative;
+    top: 125px;
+    left: 160px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.fifthmain {
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    position: relative;
+    top: 226px;
+}
+
+.fifthkachef {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 226px;
+    overflow: hidden;
+}
+.chefmn {
+    width: 20%;
+    height: 800px;
+}
+#chef1 {
+    width: 270px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#chef1:hover {
+    opacity: 0.5;
+}
+
+#cname {
+    color: white;
+    font-size: 28px;
+    font-family: system-ui;
+    position: relative;
+    left: 20px;
+    top: 10px
+}
+
+#cpfoodchef {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 90px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.cheficons {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+#cicon1 {
+    color: yellow;
+    font-size: 25px;
+}
+
+#cicon2 {
+    color: yellow;
+    font-size: 25px;
+}
+
+#cicon3 {
+    color: yellow;
+    font-size: 25px;
+}
+.menuwalamain {
+    width: 100%;
+    height: 1800px;
+    background: rgb(0, 0, 0);
+
+    position: relative;
+    top: 226px;
+}
+
+.ovrmenu {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menuleave {
+    width: 75px;
+    height: 72px;
+    position: relative;
+    top: 160px;
+    left: 450px;
+}
+.menuitems {
+    width: 80%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 150px;
+    left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.menuitems a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+#menukaul {
+    overflow: hidden;
+}
+
+#menukali {
+    float: left;
+    padding: 10px;
+
+}
+
+#menukaA {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+#menukaA:hover {
+    background-color: #728586;
+    color: white;
+}
+
+.menufood {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+}
+
+#menukaburger {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#menukapizza {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#menukasalad {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#menukapasta {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#menukaburger:hover {
+    opacity: 0.5;
+}
+
+#menukapizza:hover {
+    opacity: 0.5;
+}
+
+#menukasalad:hover {
+    opacity: 0.5;
+}
+
+#menukapasta:hover {
+    opacity: 0.5;
+}
+
+.menufood2 {
+    width: 100%;
+    height: 600px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+}
+
+/* yaha se book you table wala shoro hota he 
+ */
+
+
+.tablebkmain {
+    width: 100%;
+    height: 900px;
+    /* background: rgb(0, 0, 0); */
+    background-image: url(images/bodybg2.jpg);
+
+    position: relative;
+    top: 227px;
+
+}
+
+#bookurtableh1 {
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 40%;
+    /* background-color: yellow; */
+    width: 298px;
+    font-size: 40px;
+}
+
+/* #boookingkaleave{
+    width: 75px;
+    height: 72px;
+    position: relative;
+    top: 70px;
+    left: 450px;
+ } */
+.formmain {
+    width: 50%;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+    top: 80px;
+    left: 40px;
+    /* display:flex ;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between; */
+    border-radius: 10px;
+}
+
+.timingmain {
+    width: 40%;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+    top: -567px;
+    left: 750px;
+    border-radius: 10px;
+}
+
+#timingkah1 {
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+    width: 320px;
+}
+
+#timimgkamainp {
+    color: white;
+
+    position: relative;
+    top: 80px;
+    left: 20px;
+    width: 490px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#spacewalap1 {
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+    font-family: system-ui;
+    border-bottom: 2px solid white;
+    width: 490px;
+
+}
+
+#spacewalap2 {
+    color: white;
+    position: relative;
+    top: 240px;
+    left: 20px;
+    font-size: 20px;
+    font-family: system-ui;
+    border-bottom: 2px solid white;
+    width: 490px;
+}
+
+#spacewalap3 {
+    color: white;
+    position: relative;
+    top: 340px;
+    left: 20px;
+    font-size: 20px;
+    font-family: system-ui;
+    border-bottom: 2px solid white;
+    width: 490px;
+}
+
+/* yaha se form shoro hota he  */
+#formkamain {
+    width: 93%;
+    height: 360px;
+    background-color: rgb(0, 0, 0);
+
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left: 1px;
+}
+
+/* left wala sara yaha pr he  */
+
+#leftinp {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 280px;
+    margin-top: 5px;
+    padding: 0px 5px;
+    border: 1px solid rgb(104, 121, 120);
+
+}
+
+#leftl {
+    font-size: 20px;
+    color: yellow;
+}
+
+/* right wala sara yaha pr he  */
+#rightl {
+    position: relative;
+    left: 50px;
+    top: -40px;
+    font-size: 20px;
+    color: yellow;
+}
+
+#rightinp {
+    position: relative;
+    left: 338px;
+    top: -50px;
+    height: 45px;
+    background: #000;
+    width: 280px;
+    color: white;
+    padding: 0px 5px;
+    border: 1px solid rgb(104, 121, 120);
+
+
+
+
+}
+
+.formkabtn {
+    position: relative;
+    top: 105px;
+    left: 15px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#leftinp:hover {
+    border: 1px solid yellow;
+}
+
+#rightinp:hover {
+    border: 1px solid yellow;
+}
+
+/* yaha se contact wala shoro howa he  */
+
+.contactkamain {
+    width: 100%;
+    height: 350px;
+    background: #000;
+    position: relative;
+    top: 227px;
+}
+
+#cotacth1 {
+    color: white;
+
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 500px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contactleave {
+    width: 75px;
+    height: 72px;
+    position: relative;
+    top: 57px;
+    left: 470px;
+}
+
+.contact {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fourboxes {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+#cntcticons {
+    color: yellow;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-size: 25px;
+}
+
+#location {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    display: inline;
+}
+
+#phone {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    display: inline;
+}
+
+#emial {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    display: inline;
+}
+
+#locationp {
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#emailp a {
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 55px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#emailp a:hover {
+    border-bottom: 1px solid yellow;
+}
+#phonep a{
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 45px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
